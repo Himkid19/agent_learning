@@ -35,10 +35,10 @@ agent_learning/
 
 ## 🚀 学习路径
 
-### 1. LLM基础应用 → [examples/llm-basics/QUICK_START.md](examples/llm-basics/QUICK_START.md)
-- [y] OpenAI API调用
-- [y] OpenRouter API调用
-- [y] 参数调优和配置
+### 1. LLM基础应用 → [examples/llm-basics/QUICK_START.md](examples/llm-basics/QUICK_START.md) ✅
+- ✅ OpenAI API调用
+- ✅ OpenRouter API调用
+- ✅ 参数调优和配置
 
 ### 2. Prompt工程
 - [x] 基础Prompt编写
