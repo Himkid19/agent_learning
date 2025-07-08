@@ -9,10 +9,7 @@
 ```
 examples/llm-basics/
 ├── QUICK_START.md          # 本文件 - 快速开始指南
-├── test_llm_client.py      # LLM客户端测试脚本
-├── openai_demo.py          # OpenAI API示例
-├── openrouter_demo.py      # OpenRouter API示例
-└── anthropic_demo.py       # Anthropic API示例
+└── test_llm_client.py      # LLM客户端测试脚本
 ```
 
 ## 🎯 学习目标
@@ -30,17 +27,31 @@ pip install -r ../../requirements-minimal.txt
 ```
 
 ### 2. 配置API密钥
-在项目根目录创建 `.env` 文件：
+运行环境设置脚本会自动创建 `.env` 文件模板，然后编辑填入你的API密钥：
+
 ```
 OPENAI_API_KEY=your_openai_api_key_here
 OPENROUTER_API_KEY=your_openrouter_api_key_here
 ANTHROPIC_API_KEY=your_anthropic_api_key_here
 ```
-(可以在[openrouter](https://openrouter.ai/)注册key使用)
+
+**推荐使用OpenRouter**：可以在[openrouter.ai](https://openrouter.ai/)注册获取免费API密钥
 
 ## 🚀 快速开始
 
-### 1. 测试LLM客户端
+### 1. 环境设置
+```bash
+# 在项目根目录运行
+python setup_env.py
+```
+
+### 2. 测试环境
+```bash
+# 在项目根目录运行
+python test_env.py
+```
+
+### 3. 测试LLM客户端
 ```bash
 python test_llm_client.py
 ```
@@ -107,27 +118,35 @@ response = await client.chat_completion(
 ## 🔧 故障排除
 
 ### 常见问题
-1. **API密钥错误**: 检查环境变量设置
-2. **网络连接**: 确认网络连接正常
-3. **配额限制**: 检查API使用额度
-4. **模型不可用**: 确认模型名称正确
+1. **API密钥错误**: 运行 `python setup_env.py` 重新设置
+2. **环境变量未加载**: 确保在项目根目录运行脚本
+3. **网络连接**: 确认网络连接正常
+4. **配额限制**: 检查API使用额度
 
 ### 调试技巧
-```python
-import logging
-logging.basicConfig(level=logging.DEBUG)
+```bash
+# 检查环境变量
+python test_env.py
 
-# 启用详细日志
-client = LLMClient(provider="openai")
+# 查看详细错误信息
+python -c "from src.core.llm_client import LLMClient; print('导入成功')"
 ```
 
 ## 📖 下一步
 
 完成LLM基础应用学习后，可以继续：
 
-1. **Prompt工程** → [../prompt-engineering/](../prompt-engineering/)
-2. **智能体应用** → [../agents/](../agents/)
-3. **MCP工具集成** → [../mcp-tools/](../mcp-tools/)
+1. **Prompt工程** → [../prompt-engineering/](../prompt-engineering/) (待开发)
+2. **智能体应用** → [../agents/](../agents/) (待开发)
+3. **MCP工具集成** → [../mcp-tools/](../mcp-tools/) (待开发)
+
+## 🎯 学习成果
+
+完成本模块后，你将掌握：
+- ✅ 多种LLM API的调用方法
+- ✅ 环境变量和配置管理
+- ✅ 参数调优技巧
+- ✅ 错误处理和调试方法
 
 ## 🤝 贡献
 
