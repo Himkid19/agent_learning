@@ -1,0 +1,12 @@
+# 复制此文件为 .env 并填入你的API密钥
+
+# OpenAI API Configuration
+OPENAI_API_KEY=your_openai_api_key_here
+
+# OpenRouter API Configuration  
+OPENROUTER_API_KEY=your_openrouter_api_key_here
+
+# Anthropic API Configuration
+ANTHROPIC_API_KEY=your_anthropic_api_key_here
+
+# 其他配置保持默认即可 
