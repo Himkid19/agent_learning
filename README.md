@@ -36,9 +36,9 @@ agent_learning/
 ## 🚀 学习路径
 
 ### 1. LLM基础应用 → [examples/llm-basics/QUICK_START.md](examples/llm-basics/QUICK_START.md)
-- [x] OpenAI API调用
-- [x] OpenRouter API调用
-- [x] 参数调优和配置
+- [y] OpenAI API调用
+- [y] OpenRouter API调用
+- [y] 参数调优和配置
 
 ### 2. Prompt工程
 - [x] 基础Prompt编写
@@ -101,12 +101,6 @@ copy config\env_template.txt .env
 ```bash
 python examples/llm-basics/test_llm_client.py
 ```
-
-## 📚 文档
-
-- [基础教程](docs/tutorials/)
-- [API文档](docs/api-docs/)
-- [最佳实践](docs/best-practices/)
 
 ## 🤝 贡献
 
