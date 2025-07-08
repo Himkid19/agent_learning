@@ -45,15 +45,9 @@ ANTHROPIC_API_KEY=your_anthropic_api_key_here
 python setup_env.py
 ```
 
-### 2. 测试环境
+### 2. 测试LLM客户端
 ```bash
-# 在项目根目录运行
-python test_env.py
-```
-
-### 3. 测试LLM客户端
-```bash
-python test_llm_client.py
+python .\examples\llm-basics\test_llm_client.py
 ```
 
 ## 📚 核心概念
