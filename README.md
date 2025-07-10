@@ -40,10 +40,10 @@ agent_learning/
 - ✅ OpenRouter API调用
 - ✅ 参数调优和配置
 
-### 2. Prompt工程
-- [x] 基础Prompt编写
-- [x] 高级Prompt技巧
-- [x] 上下文管理
+### 2. Prompt工程 ✅
+- ✅ [基础Prompt编写](examples/prompt-engineering/01_basic_prompt_writing.md) - 掌握清晰指令和结构化Prompt
+- ✅ [高级Prompt技巧](examples/prompt-engineering/02_advanced_prompt_techniques.md) - 思维链、Few-shot Learning、角色扮演
+- ✅ [上下文管理](examples/prompt-engineering/03_context_management.md) - 长对话处理和记忆机制
 
 ### 3. 智能体应用
 - [x] 基础智能体实现
