@@ -1,4 +1,7 @@
 # 最小依赖 - 仅用于LLM客户端测试
 openai>=1.0.0
 anthropic>=0.8.0
-python-dotenv>=1.0.0 
+python-dotenv>=1.0.0
+
+# AutoGen依赖
+pyautogen>=0.2.0 

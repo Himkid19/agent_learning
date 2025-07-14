@@ -45,14 +45,14 @@ agent_learning/
 - ✅ [高级Prompt技巧](examples/prompt-engineering/02_advanced_prompt_techniques.md) - 思维链、Few-shot Learning、角色扮演
 - ✅ [上下文管理](examples/prompt-engineering/03_context_management.md) - 长对话处理和记忆机制
 
-### 3. 智能体应用
-- [x] 基础智能体实现
-- [x] 多智能体协作
+### 3. 智能体应用 → [examples/agents/QUICK_START.md](examples/agents/QUICK_START.md)
+- ✅ 基础智能体实现
+- ✅ 多智能体协作
 - [x] 工作流编排
 
-### 4. MCP工具集成
-- [x] MCP协议基础
-- [x] 自定义工具开发
+### 4. MCP工具集成 → [examples/mcp-tools/README.md](examples/mcp-tools/README.md)
+- ✅ MCP协议基础
+- ✅ 自定义工具开发
 - [x] 工具链集成
 
 ### 5. 实际应用案例
